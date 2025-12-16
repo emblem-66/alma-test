@@ -9,3 +9,5 @@ set -xeuo pipefail
 # dnf config-manager --set-enabled crb
 
 echo "Hello, Atomic AlmaLinux respin world!."
+
+rpm -qa | sort
